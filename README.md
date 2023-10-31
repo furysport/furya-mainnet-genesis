@@ -98,7 +98,7 @@ go version
 Install the mainnet binary:
 
 ```shell
-git clone https://github.com/furysport/furya-chain && cd furya-chain && git switch mainnet && git checkout v1.0.0 && make install
+git clone https://github.com/furysport/furya-chain && cd furya-chain && git switch main && git checkout v1.0.0 && make install
 ```
 
 Init the chain:
