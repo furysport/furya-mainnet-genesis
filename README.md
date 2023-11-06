@@ -73,10 +73,10 @@ Install few packages:
 apt install build-essential git curl gcc make jq -y
 ```
 
-Install Go 1.19+:
+Install go1.20.0+:
 
 ```shell
-wget -c https://go.dev/dl/go1.18.10.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.10.linux-amd64.tar.gz && rm -rf go1.18.10.linux-amd64.tar.gz
+wget -c https://go.dev/dl/go1.20.0.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.10.linux-amd64.tar.gz && rm -rf go1.18.10.linux-amd64.tar.gz
 ```
 
 Setup your environnement (you can skip this part if you already had go installed before):
