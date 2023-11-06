@@ -5,8 +5,8 @@ This is the repo to manage gentxs and create mainnet genesis.
 ## List of fan-clubs and associated validators to be on genesis
 
 ```
-Ajax                                159973 $FURY
-Al Hilal S                            94863 $FURY
+Ajax                               | 159973     | $FURY
+Al Hilal S                         | 94863      | $FURY
 Al Sadd                                   656804      $FURY
 Argentina                             294465  $FURY     Fanfury-Genesis-Validator
 Arsenal                                   511287      $FURY AR-Validators
