@@ -137,7 +137,7 @@ furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
 ## Note:
 
 1. Save `<YOUR_KEY>` seed phrase and `priv_validator_key.json` from the .furyad/config folder, in a secure place offline.
-2. Ensure you 500,000 FURY in a kujira wallet to qualify for your genesis allocation of an equivalent amount of FURY on Mainnet
+2. Ensure you 1,000,000 FURY in a kujira wallet to qualify for your genesis allocation of an equivalent amount of FURY on Mainnet
 3. Use the Identity field to submit your selected Fan Club (please check the availability of the Fan Club you are selecting by checking both the list above and the gentx folder for already submitted gentxs)
 4. Use the details field to submit your kujira-address
 5. Update the list of Fan Clubs above with your selected validator details
