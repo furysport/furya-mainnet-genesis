@@ -76,7 +76,7 @@ apt install build-essential git curl gcc make jq -y
 Install go1.20.0+:
 
 ```shell
-wget -c https://go.dev/dl/go1.20.0.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.10.linux-amd64.tar.gz && rm -rf go1.18.10.linux-amd64.tar.gz
+wget -c https://go.dev/dl/go1.20.0.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.0.linux-amd64.tar.gz && rm -rf go1.20.0.linux-amd64.tar.gz
 ```
 
 Setup your environnement (you can skip this part if you already had go installed before):
@@ -92,13 +92,13 @@ Verify the installation:
 
 ```shell
 go version
-#Should return go version go1.18.10 linux/amd64
+#Should return go version go1.20.0 linux/amd64
 ```
 
 Install the mainnet binary:
 
 ```shell
-git clone https://github.com/furysport/furya-chain && cd furya-chain && git switch main && git checkout v1.0.0 && make install
+git clone https://github.com/furysport/furya && cd furya && git switch v2.0.0 && git checkout v2.0.0 && make install
 ```
 
 Init the chain:
@@ -118,13 +118,20 @@ You can also use `--recover` flag to retrieve an already existed key (but we rec
 Add genesis account:
 
 ```shell
-furyad add-genesis-account <YOUR_KEY> 10000000ufury
+furyad genesis add-genesis-account <YOUR_KEY> 10000000ufury
 ```
 
 Create the gentx:
 
 ```shell
-furyad gentx <YOUR_KEY> 500000000000ufury --moniker="" --min-self-delegation="1000000" --commission-max-change-rate="0.01" --commission-max-rate="0.20"      --commission-rate=0.05 --website="" --identity="" --security-contact="" --details="" --chain-id=furya-1
+furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
+    --moniker="XXXXXXXX" \
+    --commission-max-change-rate=0.01 \
+    --commission-max-rate=1.0 \
+    --commission-rate=0.07 \
+    --details="XXXXXXXX" \
+    --security-contact="XXXXXXXX" \
+    --website="XXXXXXXX"
 ```
 
 ## Note:
@@ -138,5 +145,5 @@ furyad gentx <YOUR_KEY> 500000000000ufury --moniker="" --min-self-delegation="10
 ## Push the GenTx generated to the repository
 
 Fork this repository and clone the repo    
-Copy `$HOME/.furyad/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/<Moniker>-<FanClub>.json`  
+Copy `$HOME/.furya/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/<Moniker>-<FanClub>.json`  
 Create PR into the repo
