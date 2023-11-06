@@ -123,7 +123,7 @@ furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
 ## Push the GenTx generated to the repository
 
 Fork this repository and clone the repo    
-Copy `$HOME/.furya/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/<Moniker>-<FanClub>.json`  
+Copy `$HOME/.furya/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/gentx-<Moniker>-<FanClub>.json`  
 Create PR into the repo
 
 ##
