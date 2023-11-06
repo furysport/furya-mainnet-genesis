@@ -100,7 +100,11 @@ Download the genesis file:
 ```shell
 curl -o ~/.furya/config/genesis.json https://github.com/furysport/furya-mainnet-genesis/blob/e7fb84ad5d21591379adce0cd448525fb5420c11/genesis.json
 ```
+Recover keys:
 
+```shell
+furyad keys add XXXX --recover 
+```
 Create the gentx:
 
 ```shell
