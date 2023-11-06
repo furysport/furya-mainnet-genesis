@@ -110,6 +110,7 @@ Create the gentx:
 ```shell
 furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
     --moniker="XXXXXXXX" \
+    --from="XXXXXXXX" \
     --commission-max-change-rate=0.01 \
     --commission-max-rate=1.0 \
     --commission-rate=0.07 \
