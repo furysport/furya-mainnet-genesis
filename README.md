@@ -120,6 +120,16 @@ furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
     --website="XXXXXXXX"
 ```
 
+## Push the GenTx generated to the repository
+
+Fork this repository and clone the repo    
+Copy `$HOME/.furya/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/<Moniker>-<FanClub>.json`  
+Create PR into the repo
+
+##
+
+##
+
 ## Note:
 
 1. Save `<YOUR_KEY>` seed phrase and `priv_validator_key.json` from the .furyad/config folder, in a secure place offline.
@@ -127,9 +137,3 @@ furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
 3. Use the Identity field to submit your selected Fan Club (please check the availability of the Fan Club you are selecting by checking both the list above and the gentx folder for already submitted gentxs)
 4. Use the details field to submit your kujira-address
 5. Update the list of Fan Clubs above with your selected validator details
-
-## Push the GenTx generated to the repository
-
-Fork this repository and clone the repo    
-Copy `$HOME/.furya/config/gentx/gentx-<xxxxx>.json` to `<repo>/gentx/<Moniker>-<FanClub>.json`  
-Create PR into the repo
