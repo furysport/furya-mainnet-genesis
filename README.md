@@ -95,18 +95,10 @@ Init the chain:
 furyad init <Moniker> --chain-id=furya-1
 ```
 
-Add your validator key:
+Download the genesis file:
 
 ```shell
-furyad keys add <YOUR_KEY>
-```
-
-You can also use `--recover` flag to retrieve an already existed key (but we recommend for security reason to use one key per chain to avoid total loss of funds in case one key is missing)
-
-Add genesis account:
-
-```shell
-furyad genesis add-genesis-account <YOUR_KEY> 10000000ufury
+curl -o ~/.furya/config/genesis.json https://github.com/furysport/furya-mainnet-genesis/blob/e7fb84ad5d21591379adce0cd448525fb5420c11/genesis.json
 ```
 
 Create the gentx:
