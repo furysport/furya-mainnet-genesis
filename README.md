@@ -1,5 +1,7 @@
 # Furya mainnet genesis
 
+![Banner!](assets/loading.png)
+
 This is the repo to manage gentxs and create mainnet genesis.
 
 ## List of fan-clubs and associated validators to be on genesis
