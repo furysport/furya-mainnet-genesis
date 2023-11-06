@@ -5,47 +5,47 @@ This is the repo to manage gentxs and create mainnet genesis.
 ## List of fan-clubs and associated validators to be on genesis
 
 ```
-Ajax                               | 159973     | $FURY
-Al Hilal S                         | 94863      | $FURY
-Al Sadd                                   656804      $FURY
-Argentina                             294465  $FURY     Fanfury-Genesis-Validator
-Arsenal                                   511287      $FURY AR-Validators
-Atalanta                            50200 $FURY
-Barcelona                           26601 $FURY
-Bayern Munich Fan Club              70500 $FURY 
-Belgium                                   50200 $FURY
-Borussia Dortmund               55425 $FURY
-Brazil                                    110537      $FURY BR-Validators
-Brooklyn Nets                       159732      $FURY BN-Validators
-Buffalo Bills                         320218 $FURY      BF-Validators
-Chelsea                                   72940 $FURY   
-Chennai Super Kings                   53548 $FURY     
-Chicago Bears                       50200 $FURY
-Chicago Bulls                         425201  $FURY
-Dallas Cowboys                        52547       $FURY
-Dallas Mavericks                53732 $FURY
-Denver Broncos                        50200 $FURY
-England                                   219656      $FURY 
-Fan Club Utrecht                53826 $FURY     
-Feyenoord Rotterdam                   55105 $FURY     
-France                                    60200 $FURY   
-Germany                               64851 $FURY 
-Green Bay Packers               56732 $FURY     
-Houston Rockets                     53825 $FURY 
-India                               197017      $FURY IN-Validators
-Inter Milan                           53594 $FURY 
-Italy                               60200 $FURY
-Juventus                            80668 $FURY
-Kansas City Chiefs                        25200 $FURY   
-Kolkata Knight Riders               45200 $FURY
-Liverpool                           149975      $FURY Kujira-Validator
-Los Angeles Angels                        27547 $FURY   
-Los Angeles Lakers                        238436      $FURY LA-Validators
-Manchester City                       62492 $FURY     
-Manchester United               229516  $FURY     
-Memphis Grizzlies               25200 $FURY     
-Miami Dolphins                        30946 $FURY
-Milwaukee Bucks                     25200 $FURY
+Ajax                               | 159973 $FURY
+Al Hilal S                         | 94863  $FURY
+Al Sadd                            | 656804 $FURY
+Argentina                          |    294465  $FURY     Fanfury-Genesis-Validator
+Arsenal                            |        511287      $FURY AR-Validators
+Atalanta                           |  50200 $FURY
+Barcelona                          |  26601 $FURY
+Bayern Munich Fan Club             |  70500 $FURY 
+Belgium                            |        50200 $FURY
+Borussia Dortmund                  |  55425 $FURY
+Brazil                             |        110537      $FURY BR-Validators
+Brooklyn Nets                      |  159732      $FURY BN-Validators
+Buffalo Bills                      |    320218 $FURY      BF-Validators
+Chelsea                            |        72940 $FURY   
+Chennai Super Kings                |    53548 $FURY     
+Chicago Bears                      |  50200 $FURY
+Chicago Bulls                      |    425201  $FURY
+Dallas Cowboys                     |    52547       $FURY
+Dallas Mavericks                   |  53732 $FURY
+Denver Broncos                     |    50200 $FURY
+England                            |        219656      $FURY 
+Fan Club Utrecht                   |  53826 $FURY     
+Feyenoord Rotterdam                |    55105 $FURY     
+France                             |        60200 $FURY   
+Germany                            |    64851 $FURY 
+Green Bay Packers                  |  56732 $FURY     
+Houston Rockets                    |  53825 $FURY 
+India                              |  197017      $FURY IN-Validators
+Inter Milan                        |    53594 $FURY 
+Italy                              |  60200 $FURY
+Juventus                           |  80668 $FURY
+Kansas City Chiefs                 |        25200 $FURY   
+Kolkata Knight Riders              |  45200 $FURY
+Liverpool                          |  149975      $FURY Kujira-Validator
+Los Angeles Angels                 |        27547 $FURY   
+Los Angeles Lakers                 |        238436      $FURY LA-Validators
+Manchester City                    |    62492 $FURY     
+Manchester United                  |  229516  $FURY     
+Memphis Grizzlies                  |  25200 $FURY     
+Miami Dolphins                     |    30946 $FURY
+Milwaukee Bucks                    |  25200 $FURY
 Mumbai Indians                        26384 $FURY
 New England Patriots                28755 $FURY
 New England Revolution              27547 $FURY   
