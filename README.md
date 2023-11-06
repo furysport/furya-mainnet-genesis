@@ -1,6 +1,6 @@
-# Furya mainnet genesis
-
 ![Banner!](assets/loading.png)
+
+# Furya mainnet genesis
 
 This is the repo to manage gentxs and create mainnet genesis.
 
