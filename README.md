@@ -27,7 +27,7 @@ This is the repo to manage gentxs and create mainnet genesis.
 | Dallas Cowboys         | 52547       $FURY                           |
 | Dallas Mavericks       | 53732 $FURY                                 |
 | Denver Broncos         | 50200 $FURY                                 |
-| England                | 219656      $FURY                           |
+| England                | 219656      $FURY Smart Stake               |
 | Fan Club Utrecht       | 53826 $FURY                                 |
 | Feyenoord Rotterdam    | 55105 $FURY                                 |
 | France                 | 60200 $FURY                                 |
