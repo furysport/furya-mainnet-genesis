@@ -4,6 +4,19 @@
 
 This is the repo to manage gentxs and create mainnet genesis.
 
+# Furya Genesis will happen at 6pm UTC.
+
+Genesis validators that have submitted their PR's and Gentxs, will need to download the updated genesis.json file before starting the chain
+
+Download the updated genesis file:
+
+```shell
+
+curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/genesis.json
+```
+
+```
+
 ## List of fan-clubs and associated validators to be on genesis
 
 ```
