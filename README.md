@@ -108,15 +108,15 @@ furyad keys add XXXX --recover
 Create the gentx:
 
 ```shell
-furyad genesis gentx <moniker> 100000000000ufury --chain-id=furya-1 \
-    --moniker="XXXXXXXX" \
-    --from="XXXXXXXX" \
+furyad genesis gentx brooklyn-nets-dao 100000000000ufury --chain-id=furya-1 \
+    --moniker="brooklyn-nets-dao" \
+    --from="brooklyn-nets-dao" \
     --commission-max-change-rate=0.01 \
     --commission-max-rate=1.0 \
     --commission-rate=0.07 \
-    --details="XXXXXXXX" \
-    --security-contact="XXXXXXXX" \
-    --website="XXXXXXXX"
+    --details="brooklyn-nets-dao" \
+    --security-contact="gexchain@skiff.com" \
+    --website="gexchain@skiff.com"
 ```
 
 ## Push the GenTx generated to the repository
