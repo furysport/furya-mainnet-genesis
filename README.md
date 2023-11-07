@@ -61,7 +61,7 @@ Install few packages:
 apt install build-essential git curl gcc make jq -y
 ```
 
-Install go1.20.0+:
+Install go1.18.10+:
 
 ```shell
 wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.20
@@ -80,13 +80,13 @@ Verify the installation:
 
 ```shell
 go version
-#Should return go version go1.20.0 linux/amd64
+#Should return go version go1.18.10 linux/amd64
 ```
 
 Install the mainnet binary:
 
 ```shell
-git clone https://github.com/furysport/furya && cd furya && git switch v2.0.0 && git checkout v2.0.0 && make install
+git clone https://github.com/furysport/furya && cd furya && git switch master && git checkout master && make install
 ```
 
 Init the chain:
@@ -98,7 +98,7 @@ furyad init <Moniker> --chain-id=furya-1
 Download the genesis file:
 
 ```shell
-curl -o ~/.furya/config/genesis.json https://github.com/furysport/furya-mainnet-genesis/blob/e7fb84ad5d21591379adce0cd448525fb5420c11/genesis.json
+curl -o ~/.furyad/config/genesis.json https://github.com/furysport/furya-mainnet-genesis/blob/e7fb84ad5d21591379adce0cd448525fb5420c11/genesis.json
 ```
 Recover keys:
 
@@ -108,7 +108,7 @@ furyad keys add XXXX --recover
 Create the gentx:
 
 ```shell
-furyad genesis gentx brooklyn-nets-dao 100000000000ufury --chain-id=furya-1 \
+furyad gentx brooklyn-nets-dao 100000000000ufury --chain-id=furya-1 \
     --moniker="brooklyn-nets-dao" \
     --from="brooklyn-nets-dao" \
     --commission-max-change-rate=0.01 \
@@ -132,7 +132,7 @@ Create PR into the repo
 ## Note:
 
 1. Save `<YOUR_KEY>` seed phrase and `priv_validator_key.json` from the .furyad/config folder, in a secure place offline.
-2. Ensure you 1,000,000 FURY in a kujira wallet to qualify for your genesis allocation of an equivalent amount of FURY on Mainnet
+2. Ensure you 500,000 FURY in a kujira wallet to qualify for your genesis allocation of an equivalent amount of FURY on Mainnet
 3. Use the Identity field to submit your selected Fan Club (please check the availability of the Fan Club you are selecting by checking both the list above and the gentx folder for already submitted gentxs)
 4. Use the details field to submit your kujira-address
 5. Update the list of Fan Clubs above with your selected validator details
