@@ -322,7 +322,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "furya16s9qdyalcvga5s5s2390rqqp443xpdcrz5qsp9",
+          "address": "furya10kxrlc40tlzh94ggxafxz7plt5en6qgdaxk0nt",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -17505,7 +17505,7 @@
           ]
         },
         {
-          "address": "furya16s9qdyalcvga5s5s2390rqqp443xpdcrz5qsp9",
+          "address": "furya10kxrlc40tlzh94ggxafxz7plt5en6qgdaxk0nt",
           "coins": [
             {
               "denom": "ufury",
