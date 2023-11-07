@@ -12,7 +12,7 @@ Download the updated genesis file:
 
 ```shell
 
-curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/genesis.json
+curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/genesis-gentxs.json
 ```
 
 ## List of fan-clubs and associated validators to be on genesis
