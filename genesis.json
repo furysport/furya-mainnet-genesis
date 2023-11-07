@@ -20640,12 +20640,7 @@
           ]
         }
       ],
-      "supply": [
-        {
-          "denom": "ufury",
-          "amount": "3657451000000"
-        }
-      ],
+      "supply": [],
       "denom_metadata": []
     },
     "capability": {
