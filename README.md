@@ -33,6 +33,7 @@ curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furyspor
 | New York Yankees           | 57,304      | Ataraxian DAO            |
 | San Francisco Giants       | 235,200     | San Francisco Giants DAO |
 
+
 ```
 
 ## How to create gentx
