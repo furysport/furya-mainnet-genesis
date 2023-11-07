@@ -64,7 +64,7 @@ apt install build-essential git curl gcc make jq -y
 Install go1.18.10+:
 
 ```shell
-wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.20
+wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18.10
 ```
 
 Setup your environnement (you can skip this part if you already had go installed before):
