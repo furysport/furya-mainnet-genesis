@@ -1,4 +1,4 @@
-![image](https://github.com/furysport/furya-mainnet-genesis/assets/138385017/fc92b694-81c0-489d-863a-b79f41f3fbc4)![Banner!](assets/loading.png)
+![Banner!](assets/loading.png)
 
 # Furya mainnet genesis
 
