@@ -2,6 +2,29 @@
 
 # Furya mainnet genesis
 
+| Fanclubs                      | Validators              |
+| ----------------------------- | ----------------------- |
+| Ajax                          | PFC                     |
+| Argentina                     | Jinx Ventures           |
+| Brazil                        | SoSo DAO                |
+| Brooklyn Nets                 | Brooklyn Nets DAO       |
+| Buffalo Bills American        | Buffalo Bills DAO       |
+| Arsenal                       | Arsenal DAO             |
+| Chicago Bulls                 | Notional Ventures       |
+| England                       | Smart-Stake             |
+| India                         | India DAO               |
+| Los Angeles Lakers            | LA Lakers DAO           |
+| New York Yankees              | Ataraxian DAO           |
+| San Francisco Giants          | San Francisco Giants DAO|
+| Chennai Super Kings           | Synergy Nodes           |
+| Dallas Mavericks              | Starsquid.io            |
+| Germany                       | Starsquid.io            |
+| Liverpool                     | Starsquid.io            |
+| Manchester United             | Our Stake               |
+| Mumbai Indians                | Synergy Nodes           |
+
+
+
 This is the repo to manage gentxs and create mainnet genesis.
 
 Genesis validators can check their addresses in the pre-genesis file to confirm balances and submit their gentxs
