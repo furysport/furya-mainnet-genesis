@@ -82,7 +82,7 @@ furyad keys add XXXX --recover
 Create the gentx:
 
 ```shell
-furyad gentx brooklyn-nets-dao 9500000000000ufury --chain-id=furya-1 \
+furyad gentx brooklyn-nets-dao 950000000000ufury --chain-id=furya-1 \
     --moniker="brooklyn-nets-dao" \
     --from="brooklyn-nets-dao" \
     --commission-max-change-rate=0.01 \
