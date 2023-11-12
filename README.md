@@ -6,9 +6,7 @@ This is the repo to manage gentxs and create mainnet genesis.
 
 Genesis validators can check their addresses in the pre-genesis file to confirm balances and submit their gentxs
 
-```
-## How to create gentx
-```
+# How to create gentx
 
 ```shell
 apt install build-essential git curl gcc make jq -y
