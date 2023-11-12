@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-11-12T11:41:19.504441Z",
+  "genesis_time": "2023-11-12T12:21:17.069277Z",
   "chain_id": "furya-1",
   "initial_height": "1",
   "consensus_params": {
@@ -1254,7 +1254,7 @@
       ],
       "denom_metadata": []
     },
-        "capability": {
+    "capability": {
       "index": "1",
       "owners": []
     },
@@ -1267,8 +1267,8 @@
     "distribution": {
       "params": {
         "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0",
-        "bonus_proposer_reward": "0",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
@@ -1374,9 +1374,9 @@
       },
       "params": {
         "mint_denom": "ufury",
-        "genesis_block_provisions": "0.000000000000000000",
-        "reduction_period_in_blocks": "0",
-        "reduction_factor": "0.000000000000000000",
+        "genesis_block_provisions": "10000.000000000000000000",
+        "reduction_period_in_blocks": "6307200",
+        "reduction_factor": "0.666600000000000000",
         "distribution_proportions": {
           "grants_program": "0.100000000000000000",
           "community_pool": "0.100000000000000000",
