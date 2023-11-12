@@ -1446,7 +1446,7 @@
           "permission": "Everybody",
           "address": ""
         },
-        "instantiate_default_permission": "Everybody"
+        "instantiate_default_permission": "Nobody"
       },
       "codes": [],
       "contracts": [],
