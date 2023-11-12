@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "⚽ Liverpool",
+          "identity": "",
+          "website": "https://starsquid.io",
+          "security_contact": "hello@starsquid.io",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.070000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "furya1wlmqkpz0hkvevu3gghyxudn42gpnu4zgx2w7wt",
+        "validator_address": "furyavaloper1wlmqkpz0hkvevu3gghyxudn42gpnu4zg7grrv4",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "RpqA9wQx+v2ULcEY4GLDz8Q/frkWJKCb18LkrhDhB18="
+        },
+        "value": {
+          "denom": "ufury",
+          "amount": "1000000000000"
+        }
+      }
+    ],
+    "memo": "6d0609443aaf7b5c97f636d8e36c8f80c3eda7e7@217.160.8.176:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A20MJDpH/rXZ5WNntOz34wszaIgbEp+o4PErf8g8m76q"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "LBYWq3OKcSF7FVPdrf+NZKncBwcnSPMrKQXLYPWb5Q4877MlAg4DkyVt2ahHsb1ajI0f5fOYea/A/5gF2YdCdQ=="
+  ]
+}
