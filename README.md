@@ -4,8 +4,6 @@
 
 This is the repo to manage gentxs and create mainnet genesis.
 
-# Furya Genesis will happen at 6pm UTC.
-
 Genesis validators can check their addresses in the pre-genesis file to confirm balances and submit their gentxs
 
 ```
