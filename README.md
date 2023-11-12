@@ -10,8 +10,7 @@ Genesis validators can check their addresses in the pre-genesis file to confirm 
 
 ```
 ## How to create gentx
-
-Install few packages:
+```
 
 ```shell
 apt install build-essential git curl gcc make jq -y
