@@ -6,36 +6,9 @@ This is the repo to manage gentxs and create mainnet genesis.
 
 # Furya Genesis will happen at 6pm UTC.
 
-Genesis validators that have submitted their PR's and Gentxs, will need to download the updated genesis.json file before starting the chain
-
-Download the updated genesis file:
-
-```shell
-
-curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/genesis-gentxs.json
-```
-
-## List of fan-clubs and associated validators to be on genesis
+Genesis validators can check their addresses in the pre-genesis file to confirm balances and submit their gentxs
 
 ```
-| Fanclubs                   | FURY Staked | Validator Name           |
-| -------------------------- | ----------  | ------------------------ |
-| Argentina                  | 294,465     | Jinx Ventures            |
-| Arsenal                    | 511,287     | Arsenal DAO              |
-| Brazil                     | 110,537     | SoSo DAO                 |
-| Brooklyn Nets              | 159,732     | Brooklyn Nets DAO        |
-| Buffalo Bills              | 320,218     | Buffalo Bills DAO        |
-| Chicago Bulls              | 425,201     | Notional Ventures        |
-| England                    | 219,656     | Smart-Stake              |
-| Germany                    | 64,851      | Starsquid.io             |
-| India                      | 197,017     | India DAO                |
-| Los Angeles Lakers         | 238,436     | LA Lakers DAO            |
-| New York Yankees           | 57,304      | Ataraxian DAO            |
-| San Francisco Giants       | 235,200     | San Francisco Giants DAO |
-
-
-```
-
 ## How to create gentx
 
 Install few packages:
@@ -69,7 +42,7 @@ go version
 Install the mainnet binary:
 
 ```shell
-git clone https://github.com/furysport/furya && cd furya && git switch master && git checkout master && make install
+git clone https://github.com/furysport/furya && cd furya && git checkout v3.1.0 && make install
 ```
 
 Init the chain:
@@ -81,7 +54,7 @@ furyad init <Moniker> --chain-id=furya-1
 Download the genesis file:
 
 ```shell
-curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/genesis.json
+curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/pre-genesis.json
 ```
 Recover keys:
 
@@ -91,7 +64,7 @@ furyad keys add XXXX --recover
 Create the gentx:
 
 ```shell
-furyad gentx brooklyn-nets-dao 100000000000ufury --chain-id=furya-1 \
+furyad gentx brooklyn-nets-dao 9500000000000ufury --chain-id=furya-1 \
     --moniker="brooklyn-nets-dao" \
     --from="brooklyn-nets-dao" \
     --commission-max-change-rate=0.01 \

@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-11-12T11:17:46.442624Z",
+  "genesis_time": "2023-11-12T11:41:19.504441Z",
   "chain_id": "furya-1",
   "initial_height": "1",
   "consensus_params": {
@@ -433,6 +433,13 @@
           "sequence": "0"
         },
         {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "furya1f9eh8dh7j4nqe8nfq0lhpnr2elh5jr2w4nngt2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -767,13 +774,6 @@
             "end_time": "1762799340"
           },
           "start_time": "1712687400"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "furya1f9eh8dh7j4nqe8nfq0lhpnr2elh5jr2w4nngt2",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
         }
       ]
     },
@@ -1079,7 +1079,7 @@
           "coins": [
             {
               "denom": "ufury",
-              "amount": "500000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -1106,7 +1106,7 @@
           "coins": [
             {
               "denom": "ufury",
-              "amount": "500000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -1249,12 +1249,12 @@
       "supply": [
         {
           "denom": "ufury",
-          "amount": "410220000000000"
+          "amount": "411220000000000"
         }
       ],
       "denom_metadata": []
     },
-    "capability": {
+        "capability": {
       "index": "1",
       "owners": []
     },
