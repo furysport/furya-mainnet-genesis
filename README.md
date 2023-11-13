@@ -27,7 +27,17 @@
 
 This is the repo to manage gentxs and create mainnet genesis.
 
-Genesis validators can check their addresses in the pre-genesis file to confirm balances and submit their gentxs
+
+
+Genesis validators download the latest genesis from the new "mainnet-genesis" release. 
+
+# Download the mainnet-genesis file
+
+```shell
+curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/mainnet-genesis.json
+```
+##
+##
 
 # How to create gentx
 
@@ -72,7 +82,7 @@ furyad init <Moniker> --chain-id=furya-1
 Download the genesis file:
 
 ```shell
-curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/pre-genesis.json
+[curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/pre-genesis.](https://raw.githubusercontent.com/furysport/furya-mainnet-genesis/main/mainnet-genesis.json)json
 ```
 Recover keys:
 
