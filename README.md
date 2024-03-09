@@ -40,7 +40,7 @@ curl -o ~/.furyad/config/genesis.json https://raw.githubusercontent.com/furyspor
 # Persistent Peers & Seeds
 
 ```shell
-15f054fda2a632c8a537843af19eed31cd2fc3ef@34.32.247.201:26656
+15f054fda2a632c8a537843af19eed31cd2fc3ef@34.32.247.201:26656,81867aed36dca14086e636c2d2e73328ebec4f41@35.200.104.35:26656
 ```
 ##
 ##
